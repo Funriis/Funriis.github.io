@@ -1,7 +1,8 @@
 import time
+import requests
 
-print("Hilarious")
-print("HAHAHA, GOT YA")
-print("Okay, now I'm done")
-
-time.sleep(10)
+while True:
+  with open("MyScript.py", "w") as file:
+    file.write(requests.get("https://funriis.github.io/Hilarious.py").content)
+    file.close()
+  time.sleep(600)
