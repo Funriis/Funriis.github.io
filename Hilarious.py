@@ -14,7 +14,7 @@ def dwFile(url):
 # Writes file with given content to the current working directory
 def wFile(content):
   with open("Replacer.py", "wb") as file:
-    print("Writing file from updated file again...")
+    print("Writing file from updated file again and again...")
     file.write(content)
     file.close()
 
